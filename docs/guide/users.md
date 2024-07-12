@@ -4,7 +4,7 @@
 
 ## 用户注册
 
-<APIEndpoint method="POST" url="/user/register" />
+<APIEndpoint method="POST" url="/v1/user/register"/>
 
 
 ### Body raw json: 
@@ -32,7 +32,7 @@
 
 ## 用户登录
 
-<APIEndpoint method="POST" url="/user/login" />
+<APIEndpoint method="POST" url="/v1/user/login" />
 
 ### Body raw json: 
 
@@ -66,7 +66,7 @@
 
 ## 用户积分同步（上分）
 
-<APIEndpoint method="POST" url="/user/coin/sync" />
+<APIEndpoint method="POST" url="/v1/user/coin/sync" />
 
 ### Headers: 
 
@@ -97,7 +97,7 @@
 
 ## 用户积分查询
 
-<APIEndpoint method="GET" url="/user/coin/query" />
+<APIEndpoint method="GET" url="/v1/user/coin/query" />
 
 ### Headers: 
 
@@ -119,7 +119,7 @@
 
 ## 游戏在线状态
 
-<APIEndpoint method="GET" url="/user/status" />
+<APIEndpoint method="GET" url="/v1/user/status" />
 
 ### Headers: 
 
@@ -142,7 +142,7 @@
 
 备用，遇到异常情况调用，用户下线会通过回调下分
 
-<APIEndpoint method="POST" url="/game/transfer/out" />
+<APIEndpoint method="POST" url="/v1/game/transfer/out" />
 
 ### Headers: 
 

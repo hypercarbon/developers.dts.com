@@ -4,7 +4,7 @@
 
 ## EndPoint
 
-`https://dataoshaservice.sz-meta.com/v1`
+`https://dataoshaservice.sz-meta.com`
 
 
 ## 追踪ID（sleuthId）
