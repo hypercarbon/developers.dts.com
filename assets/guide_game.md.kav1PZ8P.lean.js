@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as t}from"./chunks/framework.uPL7Er7x.js";const u=JSON.parse('{"title":"游戏","description":"","frontmatter":{},"headers":[],"relativePath":"guide/game.md","filePath":"guide/game.md"}'),n={name:"guide/game.md"},l=t("",14),h=[l];function e(p,k,d,o,E,r){return a(),i("div",null,h)}const c=s(n,[["render",e]]);export{u as __pageData,c as default};
